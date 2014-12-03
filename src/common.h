@@ -6,4 +6,7 @@
 #define FALSE  0
 #define TRUE   1
 
+void parse();
+
+
 #endif // COMMON_H_

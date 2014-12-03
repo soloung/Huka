@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include"Token.h"
 #include"operator.h"
+#include"common.h"
 
 int main()
 {
@@ -10,6 +11,7 @@ int main()
 	//printf("%s\n",statements);
     //Token(statements);
     infix2postfix();
+    parse();
 
 
     return 0;
